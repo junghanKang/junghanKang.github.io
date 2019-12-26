@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://junghankang.github.io/categories/</loc>
+    <loc>https://junghankang.github.io/posts/mongo-first-post/</loc>
+    <lastmod>2019-12-26T17:47:19+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://junghankang.github.io/</loc>
+    <lastmod>2019-12-26T17:47:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://junghankang.github.io/posts/</loc>
+    <lastmod>2019-12-26T17:47:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://junghankang.github.io/categories/</loc>
   </url>
   
   <url>

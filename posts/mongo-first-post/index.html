@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Mongo First Post // My New Hugo Site</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://junghankang.github.io/css/main.min.61bb32028587f24ca28522d8d197970c7ef33284e5fffb45a75fcbbb2dbc4dcb.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mongo First Post"/>
+<meta name="twitter:description" content="Test MongoDB with docker docker pull mongo # get latest docker run -d -p 27017-27019:27017-27019 --name mongodb mongo:latest docker exec -it mongodb bash root@737dc8d5e736:/# mongo MongoDB shell version v4.2.2 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&amp;gssapiServiceName=mongodb Implicit session: session { &quot;id&quot; : UUID(&quot;aeea67c1-b644-4da6-b405-c7b2bec35539&quot;) } MongoDB server version: 4.2.2 Welcome to the MongoDB shell. For interactive help, type &quot;help&quot;. For more comprehensive documentation, see http://docs.mongodb.org/ Questions? Try the support group http://groups.google.com/group/mongodb-user Server has startup warnings: 2019-12-26T09:03:13."/>
+
+    <meta property="og:title" content="Mongo First Post" />
+<meta property="og:description" content="Test MongoDB with docker docker pull mongo # get latest docker run -d -p 27017-27019:27017-27019 --name mongodb mongo:latest docker exec -it mongodb bash root@737dc8d5e736:/# mongo MongoDB shell version v4.2.2 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&amp;gssapiServiceName=mongodb Implicit session: session { &quot;id&quot; : UUID(&quot;aeea67c1-b644-4da6-b405-c7b2bec35539&quot;) } MongoDB server version: 4.2.2 Welcome to the MongoDB shell. For interactive help, type &quot;help&quot;. For more comprehensive documentation, see http://docs.mongodb.org/ Questions? Try the support group http://groups.google.com/group/mongodb-user Server has startup warnings: 2019-12-26T09:03:13." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://junghankang.github.io/posts/mongo-first-post/" />
+<meta property="article:published_time" content="2019-12-26T17:47:19+09:00" />
+<meta property="article:modified_time" content="2019-12-26T17:47:19+09:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://junghankang.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>My New Hugo Site</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Mongo First Post</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Dec 26, 2019
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <h1 id="test-mongodb-with-docker">Test MongoDB with docker</h1>
+<pre><code>docker pull mongo # get latest
+</code></pre><pre><code>docker run -d -p 27017-27019:27017-27019 --name mongodb mongo:latest
+</code></pre><pre><code>docker exec -it mongodb bash
+</code></pre><pre><code>root@737dc8d5e736:/# mongo
+MongoDB shell version v4.2.2
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&amp;gssapiServiceName=mongodb
+Implicit session: session { &quot;id&quot; : UUID(&quot;aeea67c1-b644-4da6-b405-c7b2bec35539&quot;) }
+MongoDB server version: 4.2.2
+Welcome to the MongoDB shell.
+For interactive help, type &quot;help&quot;.
+For more comprehensive documentation, see
+	http://docs.mongodb.org/
+Questions? Try the support group
+	http://groups.google.com/group/mongodb-user
+Server has startup warnings:
+2019-12-26T09:03:13.918+0000 I  STORAGE  [initandlisten]
+2019-12-26T09:03:13.918+0000 I  STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2019-12-26T09:03:13.919+0000 I  STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2019-12-26T09:03:14.540+0000 I  CONTROL  [initandlisten]
+2019-12-26T09:03:14.541+0000 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-12-26T09:03:14.541+0000 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-12-26T09:03:14.541+0000 I  CONTROL  [initandlisten]
+---
+Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+and anyone you share the URL with. MongoDB may use this information to make product
+improvements and to suggest MongoDB products and deployment options to you.
+
+To enable free monitoring, run the following command: db.enableFreeMonitoring()
+To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+</code></pre><pre><code>&gt; show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+&gt; use testdb
+switched to db testdb
+&gt; db.item.save({ name: &quot;apple&quot;, amount: 2 })
+WriteResult({ &quot;nInserted&quot; : 1 })
+&gt; db.item.save({ name: &quot;orange&quot;, amount: 5 })
+WriteResult({ &quot;nInserted&quot; : 1 })
+&gt; db.item.find({ name: &quot;orange&quot; })
+{ &quot;_id&quot; : ObjectId(&quot;5e047a11f2c214540e7a8696&quot;), &quot;name&quot; : &quot;orange&quot;, &quot;amount&quot; : 5 }
+</code></pre>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
